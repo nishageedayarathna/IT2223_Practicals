@@ -22,7 +22,7 @@
 
 ![userinput](https://github.com/user-attachments/assets/4703a422-7880-4d9f-a7f1-a92228b0a4c2)
 
-(07)while loop
+(06)while loop
 
 ![whileloop](https://github.com/user-attachments/assets/bc12316a-9e05-4b3f-8247-10f42dacde5c)
 

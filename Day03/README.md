@@ -1,176 +1,51 @@
-# MATLAB Code Repository
+(01)Give the two strings as one string using strcat function.--> stringfunction.m
 
-This repository contains various MATLAB scripts demonstrating basic mathematical operations, matrix manipulations, and control structures such as loops and conditionals.
+![1](https://github.com/user-attachments/assets/2f6cf6a9-8461-4c7a-bdf4-45c6baa48437)
 
-## Requirements
-- MATLAB application is required to run these scripts.
+(02)Array Display. --> arraydisplay.m
 
-## Included MATLAB Scripts
+![2](https://github.com/user-attachments/assets/413cb979-d117-4e9c-a3cc-00b02ebfa67d)
 
-### 1. Basic Arithmetic Operations
-```matlab
-% Define variables
-a = 5;
-b = 10;
+(03)strcmp string function. --> stringfunction3.m
 
-% Addition
-c = a + b;
-% Multiplication
-d = a * b;
-% Division
-e = a / b;
-% Subtraction
-f = a - b;
-```
-**Output:**
-```
-c = 15
-d = 50
-e = 0.5000
-f = -5
-```
+![3](https://github.com/user-attachments/assets/64a07a0b-dff2-452b-80bd-28e6c393bb22)
 
-### 2. Matrix Creation and Operations
-```matlab
-% Define Matrices
-A = [1 2 3];
-B = [4;5;6];
-C = [2 3 4;5 6 7;8 9 10];
+(04)Find a string using strfind function. --> findstring.m
 
-% Size of matrix
-size_C = size(C);
-% Sum of matrix elements
-sum_C = sum(sum(C));
-% Column-wise and row-wise sums
-col_sum = sum(C,1);
-row_sum = sum(C,2);
-```
-**Output:**
-```
-size_C = [3 3]
-sum_C = 54
-col_sum = [15 18 21]
-row_sum = [9; 18; 27]
-```
+![4](https://github.com/user-attachments/assets/a7260dab-f586-4bb0-9e77-be41dc47ec1c)
 
-### 3. Finding Min and Max Elements
-```matlab
-% Column-wise minimum
-min_col = min(C);
-% Minimum of whole matrix
-min_all = min(min(C));
-% Column-wise maximum
-max_col = max(C);
-% Maximum of whole matrix
-max_all = max(max(C));
-```
-**Output:**
-```
-min_col = [2 3 4]
-min_all = 2
-max_col = [8 9 10]
-max_all = 10
-```
+(05)Change a string from one string to another string using strrep function. --> stringchange.m
 
-### 4. Accessing Matrix Elements
-```matlab
-% Accessing specific elements
-second_element = C(2);
-first_row = C(1,:);
-first_column = C(:,1);
-last_element_first_row = C(1,end);
-```
-**Output:**
-```
-second_element = 5
-first_row = [2 3 4]
-first_column = [2; 5; 8]
-last_element_first_row = 4
-```
+![5](https://github.com/user-attachments/assets/fe603ab4-f62c-4acd-8f1d-74f38b59fe5e)
 
-### 5. Matrix Addition, Subtraction, and Multiplication
-```matlab
-A = [1 2 3 4;5 6 7 8;9 10 11 12;13 14 15 16];
-B = A; % Duplicate matrix
+(06)Split a string using strsplit function. --> stringsplit.m
 
-% Element-wise Addition and Subtraction
-sum_matrix = A + B;
-diff_matrix = A - B;
+![6](https://github.com/user-attachments/assets/c135a24d-9cba-47af-8bf9-a5fdf555e2cb)
 
-% Matrix Multiplication
-prod_matrix = A * B;
-```
-**Output:**
-```
-sum_matrix =
-  2  4  6  8
- 10 12 14 16
- 18 20 22 24
- 26 28 30 32
+(07)Change the cases of string(Lowercase,Uppercase). --> stringcases.m
 
-diff_matrix =
-  0  0  0  0
-  0  0  0  0
-  0  0  0  0
-  0  0  0  0
+![7](https://github.com/user-attachments/assets/2e6e2ebe-c61d-48be-8dc1-683482051bd8)
 
-prod_matrix =
-  90  100  110  120
- 202  228  254  280
- 314  356  398  440
- 426  484  542  600
-```
+(08)Trim a string. --> stringtrim.m
 
-### 6. Conditional Statements
-```matlab
-num = 4;
-if num > 0
-    disp('The Number Is Positive')
-else
-    disp('The Number Is Negative')
-end
-```
-**Output:**
-```
-The Number Is Positive
-```
+![8](https://github.com/user-attachments/assets/cb9f69d8-f272-4c71-868a-bce7cb16496c)
 
-### 7. Checking Odd or Even Number
-```matlab
-if mod(num,2) == 0
-    disp('The Number Is Even')
-else
-    disp('The Number Is Odd')
-end
-```
-**Output:**
-```
-The Number Is Even
-```
+(09)Get the marks from user and give the grade according to marks. --> getmarks.m
 
-### 8. While Loop: Printing Numbers 1 to 5
-```matlab
-a = 1;
-while a <= 5
-    disp (a)
-    a = a + 1;
-end
-```
-**Output:**
-```
-1
-2
-3
-4
-5
-```
+![9](https://github.com/user-attachments/assets/9874891b-d329-4cd9-a8a3-322a1bba4d55)
 
-## How to Run the Scripts
-1. Open MATLAB.
-2. Copy and paste the desired script into the MATLAB command window or save it as a `.m` file and run it.
-3. Observe the output in the command window.
+(10)Get the maximum number from user given 3 numbers. --> maximumnumber.m
 
-## Conclusion
-These MATLAB scripts demonstrate fundamental concepts such as arithmetic operations, matrix manipulation, conditional statements, and loops. They serve as an excellent introduction to MATLAB programming.
+![10](https://github.com/user-attachments/assets/ffa1ee0d-ab03-4de6-9911-09d2e534d5af)
+
+(11)Get the entered letter is a vowel or a consonant. --> vowelconsonant.m
+
+
+
+
+
+
+
+
 
 

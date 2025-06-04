@@ -1,10 +1,29 @@
+
+## Undirected Graph
+
+output--> undirected.m
+
+![3 undirected](https://github.com/user-attachments/assets/e201c7d7-33ff-4af3-8278-993c7a97f02e)
+
+undirected2.m
+
+![4 undirected2](https://github.com/user-attachments/assets/8ef3fcb7-60ed-407a-a315-489b1ef01ce6)
+
+## Directed Graph
+
+![5 directed](https://github.com/user-attachments/assets/e465e5e4-58a2-4d35-bfc3-d415e37599c9)
+
+## Undirected Weighted Graph
+
+![6 weightedUndirected](https://github.com/user-attachments/assets/e0be8fef-edb4-42ff-842a-9470f47322bb)
+
 ## Adjacency Matrix Representation 
 
 output-->adjacencyMatrix.m
 
 ![1 adjacecyMatrix](https://github.com/user-attachments/assets/6637f1ce-8683-4466-a604-f611ff193665)
 
-## Add color to nodes
+## Add color to nodes in  a weighted directed graph
 
 output-->graph2.m
 

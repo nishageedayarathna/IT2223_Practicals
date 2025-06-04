@@ -1,51 +1,32 @@
-## Adjacency Matrix Representation 
+## Merge Sort
 
-output-->adjacencyMatrix.m
+output-->MergeSort.m
 
-![1 adjacecyMatrix](https://github.com/user-attachments/assets/6637f1ce-8683-4466-a604-f611ff193665)
+![1 mergesort](https://github.com/user-attachments/assets/464a2b88-048c-4fdb-a968-edd761065e6c)
 
-## Add color to nodes
+## Quick Sort 
 
-output-->graph2.m
+output-->QuickSort.m
 
-![2](https://github.com/user-attachments/assets/5aad8598-0cfc-457d-adca-d7a2281140ce)
+![2 quicksort](https://github.com/user-attachments/assets/d86ce9fc-579a-4139-b527-2ce3dcec67ef)
 
-## Using layout 'force'
+## Undirected Graph
 
-output-->graph3.m
+output--> undirected.m
 
-without 'force'
+![3 undirected](https://github.com/user-attachments/assets/d96a215a-7359-41f4-87f2-c7724923c1d2)
 
-![3 withoutForce](https://github.com/user-attachments/assets/cd72c738-626f-48ff-8635-e7b0cd78605c)
+undirected2.m
 
-with 'force'
+![4 undirected2](https://github.com/user-attachments/assets/ff7fe4e7-c678-46cc-b17e-e18273cc8936)
 
-![3](https://github.com/user-attachments/assets/7f96c617-c280-4d39-961e-af791e6571cb)
+## Directed Graph
 
-## add colors to nodes
+![5 directed](https://github.com/user-attachments/assets/b126d145-1f8f-4ca1-9787-ccba67532d6c)
 
-output--> nodeColors.m
+## Undirected Weighted Graph
 
-![4 colors](https://github.com/user-attachments/assets/81c95d15-f473-457d-83ce-e430df70697c)
-
-## highlight edges,nodes
-
-output-->graph4.m
-
-![5](https://github.com/user-attachments/assets/8d5a3256-d878-493d-b24e-a19c1041b86d)
-
-## Get adjacency nodes of a node
-
-output-->adjNodes.m
-
-![6 adjnodes](https://github.com/user-attachments/assets/cd27092d-4585-4049-9f62-0c39739f85e0)
-
-## Graph Image
-
-output-->graphImage.m
-
-<img width="721" alt="7 graphImage" src="https://github.com/user-attachments/assets/782557db-b663-4a0f-a93a-9f34760a1487" />
-
+![6 weightedUndirected](https://github.com/user-attachments/assets/fc8e8ce9-f13e-4ed8-8e7e-60a3154cf70d)
 
 
 

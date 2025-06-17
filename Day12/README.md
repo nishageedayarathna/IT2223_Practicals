@@ -1,176 +1,61 @@
-# MATLAB Code Repository
+## Exercise 
 
-This repository contains various MATLAB scripts demonstrating basic mathematical operations, matrix manipulations, and control structures such as loops and conditionals.
+output--> exercise.m
 
-## Requirements
-- MATLAB application is required to run these scripts.
+original Graph
 
-## Included MATLAB Scripts
+<img width="468" alt="1 EX_01" src="https://github.com/user-attachments/assets/89403558-3482-4f7f-9499-9b08435df34d" />
 
-### 1. Basic Arithmetic Operations
-```matlab
-% Define variables
-a = 5;
-b = 10;
+Adjacent vertices
 
-% Addition
-c = a + b;
-% Multiplication
-d = a * b;
-% Division
-e = a / b;
-% Subtraction
-f = a - b;
-```
-**Output:**
-```
-c = 15
-d = 50
-e = 0.5000
-f = -5
-```
+<img width="188" alt="1 EX_02" src="https://github.com/user-attachments/assets/290f4e3b-94aa-4157-ae89-7d21acc205a1" />
 
-### 2. Matrix Creation and Operations
-```matlab
-% Define Matrices
-A = [1 2 3];
-B = [4;5;6];
-C = [2 3 4;5 6 7;8 9 10];
+subgraph
 
-% Size of matrix
-size_C = size(C);
-% Sum of matrix elements
-sum_C = sum(sum(C));
-% Column-wise and row-wise sums
-col_sum = sum(C,1);
-row_sum = sum(C,2);
-```
-**Output:**
-```
-size_C = [3 3]
-sum_C = 54
-col_sum = [15 18 21]
-row_sum = [9; 18; 27]
-```
+<img width="441" alt="1 EX_03" src="https://github.com/user-attachments/assets/2faf3c41-3af6-4310-a37d-03aae2e5f178" />
 
-### 3. Finding Min and Max Elements
-```matlab
-% Column-wise minimum
-min_col = min(C);
-% Minimum of whole matrix
-min_all = min(min(C));
-% Column-wise maximum
-max_col = max(C);
-% Maximum of whole matrix
-max_all = max(max(C));
-```
-**Output:**
-```
-min_col = [2 3 4]
-min_all = 2
-max_col = [8 9 10]
-max_all = 10
-```
+graph coloring
 
-### 4. Accessing Matrix Elements
-```matlab
-% Accessing specific elements
-second_element = C(2);
-first_row = C(1,:);
-first_column = C(:,1);
-last_element_first_row = C(1,end);
-```
-**Output:**
-```
-second_element = 5
-first_row = [2 3 4]
-first_column = [2; 5; 8]
-last_element_first_row = 4
-```
+<img width="439" alt="1 EX_04" src="https://github.com/user-attachments/assets/8e348f1e-0780-4355-a795-b39987f2d4b4" />
 
-### 5. Matrix Addition, Subtraction, and Multiplication
-```matlab
-A = [1 2 3 4;5 6 7 8;9 10 11 12;13 14 15 16];
-B = A; % Duplicate matrix
+shortest path from 1 to 5
 
-% Element-wise Addition and Subtraction
-sum_matrix = A + B;
-diff_matrix = A - B;
+<img width="241" alt="1 EX_06" src="https://github.com/user-attachments/assets/b0273716-da8c-4e84-b7e7-93b1d9b67d45" />
 
-% Matrix Multiplication
-prod_matrix = A * B;
-```
-**Output:**
-```
-sum_matrix =
-  2  4  6  8
- 10 12 14 16
- 18 20 22 24
- 26 28 30 32
+<img width="441" alt="1 EX_05" src="https://github.com/user-attachments/assets/f6d3a852-2742-4c90-abde-8755f66144e1" />
 
-diff_matrix =
-  0  0  0  0
-  0  0  0  0
-  0  0  0  0
-  0  0  0  0
+## Tree
 
-prod_matrix =
-  90  100  110  120
- 202  228  254  280
- 314  356  398  440
- 426  484  542  600
-```
+output-->tree.m
 
-### 6. Conditional Statements
-```matlab
-num = 4;
-if num > 0
-    disp('The Number Is Positive')
-else
-    disp('The Number Is Negative')
-end
-```
-**Output:**
-```
-The Number Is Positive
-```
+![2 tree m](https://github.com/user-attachments/assets/61dde43c-4545-4c9b-8e28-ee189b9afd12)
 
-### 7. Checking Odd or Even Number
-```matlab
-if mod(num,2) == 0
-    disp('The Number Is Even')
-else
-    disp('The Number Is Odd')
-end
-```
-**Output:**
-```
-The Number Is Even
-```
+## weighted tree
 
-### 8. While Loop: Printing Numbers 1 to 5
-```matlab
-a = 1;
-while a <= 5
-    disp (a)
-    a = a + 1;
-end
-```
-**Output:**
-```
-1
-2
-3
-4
-5
-```
+output-->weightedTree.m
 
-## How to Run the Scripts
-1. Open MATLAB.
-2. Copy and paste the desired script into the MATLAB command window or save it as a `.m` file and run it.
-3. Observe the output in the command window.
+![3 weighteTree m](https://github.com/user-attachments/assets/9e6cb338-3bed-4526-8655-6cff95fc1b99)
 
-## Conclusion
-These MATLAB scripts demonstrate fundamental concepts such as arithmetic operations, matrix manipulation, conditional statements, and loops. They serve as an excellent introduction to MATLAB programming.
+## DFS
+
+output-->DFS.m
+
+<img width="192" alt="DFS_2" src="https://github.com/user-attachments/assets/958e1df8-a047-4386-9ac0-94d60e3ab329" />
+
+<img width="248" alt="DFS" src="https://github.com/user-attachments/assets/f2c797ea-f509-423e-8686-10fe3d3c540f" />
+
+## BFS
+
+output-->BFS.m
+
+<img width="126" alt="BFS_2" src="https://github.com/user-attachments/assets/0dda89ff-158d-4132-8fa2-2ee590753d89" />
+
+<img width="249" alt="BFS" src="https://github.com/user-attachments/assets/239d1199-ae19-472e-b553-c0582c58645b" />
+
+
+
+
+
+
 
 
